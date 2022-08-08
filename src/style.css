@@ -1,0 +1,68 @@
+* {
+    background: var(--background);
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --text-main: #f6d67f;
+    --background: #121212;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'BebasNeueRegular';
+    height: 50px;
+    background: var(--text-main);
+    width: 100%;
+}
+
+.Home{
+    font-size: 20px;
+    padding-left: 200px;
+    display: flex;
+    background: var(--text-main);
+    align-items: center;
+}
+
+.Home img {
+    background: var(--text-main);
+}
+
+.Home p {
+    background: var(--text-main);
+    padding-left: 20px;
+}
+
+ul {
+    background: var(--text-main);
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+li {
+    display: flex;
+    background: var(--text-main);
+    padding-right: 200px;
+}
+
+.Body {
+    color: white;
+    padding: 20px;
+}
+
+.Body h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'BebasNeueRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10rem;
+}
+
+.Summary {
+    display: flex;
+
+}

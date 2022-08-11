@@ -14,7 +14,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     font-family: 'BebasNeueRegular';
-    height: 50px;
+    height: 60px;
     background: var(--text-main);
     width: 100%;
 }
@@ -46,6 +46,18 @@ li {
     display: flex;
     background: var(--text-main);
     padding-right: 200px;
+}
+
+ul:hover {
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.Name:hover {
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
 }
 
 .Body {

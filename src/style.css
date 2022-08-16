@@ -2,6 +2,7 @@
     background: var(--background);
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -11,12 +12,14 @@
 
 nav {
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     font-family: 'BebasNeueRegular';
-    height: 60px;
+    height: 80px;
     background: var(--text-main);
     width: 100%;
+    z-index: 10;
 }
 
 .Home{
@@ -62,11 +65,12 @@ ul:hover {
 
 .Body {
     color: white;
-    padding: 20px;
+    padding-top: 20px;
 }
 
 .Body h1 {
     display: flex;
+    margin-top: 80px;
     justify-content: center;
     font-family: 'BebasNeueRegular';
     font-weight: normal;
@@ -76,5 +80,81 @@ ul:hover {
 
 .Summary {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 450px 300px 450px;
+    padding: 50px;
+}
 
+.club-info {
+    font-size: 2.5rem;
+    font-family: 'Roboto';
+    text-overflow: wrap;
+    text-align: right;
+}
+
+.Video {
+    width: 100%;
+}
+
+.Video-Info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute; 
+    align-items: center;
+    background: none;
+}
+
+.Matchup {
+    margin-top: 400px;
+    font-size: 8rem;
+    font-family: 'Roboto';
+    color: var(--text-main);
+    background: transparent;
+}
+
+.Video-Sound {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    background-color: transparent;
+    z-index: 5;
+}
+
+.Video-Sound:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+}
+
+.achievements {
+    color: white;
+}
+
+.achievements img {
+    padding: 40px;
+}
+
+.achievements h1 {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    font-family: 'BebasNeueRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10rem;
+}
+
+.achievements h4 {
+    color: var(--text-main)
+}
+
+.ranking-info {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    font-size: 4rem;
+    color: white;
+    align-items: center;
 }

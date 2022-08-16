@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
     <nav>  
         <div className="Home">
-            <img src={Logo} height="40px"/>
+            <img src={Logo} height="70px"/>
             <p className="Name">Dota 2 Club</p>
         </div>
         <li>

@@ -34,6 +34,9 @@ export default function Body() {
             <br></br>
             <img className="Video-Sound" src={toggleMute ? Mute : Audio} width="100px" height="100px" onClick={handleClick} onKeyDown={enterAudio}/>
         </div>
+        <video className="Video" loop muted={toggleMute} autoPlay="autoPlay" width="100%">
+            <source src={Video} type="video/mp4"></source>
+        </video>
         <br></br>
         <br></br>
     </div>
